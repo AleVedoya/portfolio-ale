@@ -147,6 +147,12 @@ nav a {
 .project-container {
   display: flex;
   justify-content: center;
+
+}
+
+.articles-section{
+  width: 85%;
+margin: 10px auto;
 }
 
 .projects-header h2 {
@@ -216,6 +222,7 @@ nav a {
   justify-content: space-evenly;
   font-family: var(--font-project);
   font-weight: 300;
+  width: 80%;
 }
 
 .about-description {
@@ -244,7 +251,7 @@ nav a {
 /*                                 Form styles                                */
 /* -------------------------------------------------------------------------- */
 #contact-form {
-  width: 90%;
+  width: 80%;
   margin: 0 1rem 1rem;
 }
 
