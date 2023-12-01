@@ -147,12 +147,11 @@ nav a {
 .project-container {
   display: flex;
   justify-content: center;
-
 }
 
-.articles-section{
+.articles-section {
   width: 85%;
-margin: 10px auto;
+  margin: 10px auto;
 }
 
 .projects-header h2 {
@@ -171,7 +170,6 @@ margin: 10px auto;
   margin: 0 auto;
   background-color: var(--bg-color2);
   text-align: center;
-  cursor: pointer;
 }
 
 .project-description {
@@ -187,6 +185,7 @@ margin: 10px auto;
   font-weight: 300;
   margin: 20px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .project-img {
@@ -245,6 +244,23 @@ margin: 10px auto;
   margin: 5px;
   font-weight: 300;
   font-size: calc(var(--h6) * 0.8);
+}
+
+#download{
+  font-family: var(--font-project);
+  font-size: var(--h5);
+  font-weight: 300;
+  text-align: center;
+}
+
+#download a {
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#download a:hover {
+  columns: var(--font-project);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -376,14 +392,13 @@ button:hover {
   nav ul {
     font-size: var(--base-size);
   }
-  
 
   #about-me {
     width: 80%;
   }
 
   #contact-form {
-    max-width: 90%;
+    max-width: 60%;
     margin: 0 auto 20px;
   }
 
@@ -443,6 +458,11 @@ button:hover {
 
   .hero-text {
     padding-right: 45px;
+  }
+
+  #contact-form {
+    width: 60%;
+    margin: 0 auto;
   }
 
   #footer {
