@@ -94,7 +94,7 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  font-size: calc(var(--base-size) * 0.8);
+  font-size: calc(var(--base-size) * 0.6);
   margin: 0;
   padding: 0;
 }
@@ -372,6 +372,11 @@ button:hover {
   .top-menu {
     justify-content: space-between;
   }
+
+  nav ul {
+    font-size: var(--base-size);
+  }
+  
 
   #about-me {
     width: 80%;
